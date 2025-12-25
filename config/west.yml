@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    #- name: slideshow
-     # url-base: https://github.com/MrKillerShaunBa
+    - name: slideshow
+      url-base: https://github.com/GPeye
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
   projects:
@@ -11,9 +11,9 @@ manifest:
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
-    #- name: hammerbeam-slideshow
-     # remote: slideshow
-      #revision: main
+    - name: hammerbeam-slideshow
+      remote: slideshow
+      revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
